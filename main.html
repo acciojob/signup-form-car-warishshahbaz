@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <html>
 
 <head>
@@ -7,6 +5,35 @@
 </head>
 
 <body>
+	<h1>Feedback Form</h1>
+	<form method="post">
+		<label for="name">Name</label>
+		<input type="text" id="name" placeholder="Name" required >
+		
+		<label for="email">Email</label>
+		<input type="email" id="email" placeholder="Email" required>
+		
+		<label for="Radio">femail</label>
+		<input type="radio" name="gender" value="femail"  id="gender_m" required >
+		<label for="Radio">mail</label>
+		<input type="radio" name="gender" value="mail" id="gender_m" required >
+		<label for="Radio">Car Brands</label>
+		<select id="cars"  required>
+			<option></option>
+			<option></option>
+			<option></option>
+		</select>
+		<label for="age">Age</label>
+		<input type="number" id="age" placeholder="Age" required >
+		<label for="dob">DOB</label>
+		<input type="date" id="dob"  required >
+		<label for="phone number">Phone Number</label>
+		<input type="tel" id="tel" placeholder="xxx-xxx-xxx" required >
+		<label for="Radio">Password</label>
+		<input type="password" id="password" placeholder="Password" required >
+		<label for="Radio">I agree to the TOS</label>
+		<input type="checkbox" id="tos"  required >
+	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
